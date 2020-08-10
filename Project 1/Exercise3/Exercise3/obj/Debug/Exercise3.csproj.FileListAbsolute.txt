@@ -1,0 +1,10 @@
+C:\Users\Zachary\source\repos\Exercise3\Exercise3\bin\Debug\Exercise3.exe.config
+C:\Users\Zachary\source\repos\Exercise3\Exercise3\bin\Debug\Exercise3.exe
+C:\Users\Zachary\source\repos\Exercise3\Exercise3\bin\Debug\Exercise3.pdb
+C:\Users\Zachary\source\repos\Exercise3\Exercise3\obj\Debug\Exercise3.csprojAssemblyReference.cache
+C:\Users\Zachary\source\repos\Exercise3\Exercise3\obj\Debug\Exercise3.Form1.resources
+C:\Users\Zachary\source\repos\Exercise3\Exercise3\obj\Debug\Exercise3.Properties.Resources.resources
+C:\Users\Zachary\source\repos\Exercise3\Exercise3\obj\Debug\Exercise3.csproj.GenerateResource.cache
+C:\Users\Zachary\source\repos\Exercise3\Exercise3\obj\Debug\Exercise3.csproj.CoreCompileInputs.cache
+C:\Users\Zachary\source\repos\Exercise3\Exercise3\obj\Debug\Exercise3.exe
+C:\Users\Zachary\source\repos\Exercise3\Exercise3\obj\Debug\Exercise3.pdb
