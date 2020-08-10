@@ -24,7 +24,7 @@ namespace Exercise3
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            
+
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
@@ -46,12 +46,22 @@ namespace Exercise3
         {
             double pounds;
             double kgs;
-            pounds = double.Parse(textBox1.Text);
-            kgs = pounds * 0.453592;
-            textBox2.Text = kgs.ToString();
 
+            try
+            {
+                pounds = double.Parse(textBox1.Text);
+                kgs = pounds * 0.453592;
+                textBox2.Text = kgs.ToString();
+            }
 
-
-        }
+            catch (FormatException fex)
+            {
+                Console.WriteLine(fex.Message);
+            }
+            Console.ReadLine();
+        }            
+        
     }
 }
+
+
