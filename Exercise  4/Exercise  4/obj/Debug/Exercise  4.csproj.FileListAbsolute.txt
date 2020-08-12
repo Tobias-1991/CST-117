@@ -1,0 +1,10 @@
+C:\Users\Zachary\source\repos\Exercise  4\Exercise  4\bin\Debug\Exercise  4.exe.config
+C:\Users\Zachary\source\repos\Exercise  4\Exercise  4\bin\Debug\Exercise  4.exe
+C:\Users\Zachary\source\repos\Exercise  4\Exercise  4\bin\Debug\Exercise  4.pdb
+C:\Users\Zachary\source\repos\Exercise  4\Exercise  4\obj\Debug\Exercise  4.csprojAssemblyReference.cache
+C:\Users\Zachary\source\repos\Exercise  4\Exercise  4\obj\Debug\Exercise__4.Form1.resources
+C:\Users\Zachary\source\repos\Exercise  4\Exercise  4\obj\Debug\Exercise__4.Properties.Resources.resources
+C:\Users\Zachary\source\repos\Exercise  4\Exercise  4\obj\Debug\Exercise  4.csproj.GenerateResource.cache
+C:\Users\Zachary\source\repos\Exercise  4\Exercise  4\obj\Debug\Exercise  4.csproj.CoreCompileInputs.cache
+C:\Users\Zachary\source\repos\Exercise  4\Exercise  4\obj\Debug\Exercise  4.exe
+C:\Users\Zachary\source\repos\Exercise  4\Exercise  4\obj\Debug\Exercise  4.pdb
