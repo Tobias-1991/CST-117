@@ -1,0 +1,10 @@
+C:\Users\Zach\source\repos\Project3 Files\Project3 Files\bin\Debug\Project3 Files.exe.config
+C:\Users\Zach\source\repos\Project3 Files\Project3 Files\bin\Debug\Project3 Files.exe
+C:\Users\Zach\source\repos\Project3 Files\Project3 Files\bin\Debug\Project3 Files.pdb
+C:\Users\Zach\source\repos\Project3 Files\Project3 Files\obj\Debug\Project3_Files.Properties.Resources.resources
+C:\Users\Zach\source\repos\Project3 Files\Project3 Files\obj\Debug\Project3 Files.csproj.GenerateResource.cache
+C:\Users\Zach\source\repos\Project3 Files\Project3 Files\obj\Debug\Project3 Files.csproj.CoreCompileInputs.cache
+C:\Users\Zach\source\repos\Project3 Files\Project3 Files\obj\Debug\Project3 Files.exe
+C:\Users\Zach\source\repos\Project3 Files\Project3 Files\obj\Debug\Project3 Files.pdb
+C:\Users\Zach\source\repos\Project3 Files\Project3 Files\obj\Debug\Project3_Files.Form1.resources
+C:\Users\Zach\source\repos\Project3 Files\Project3 Files\obj\Debug\Project3 Files.csprojAssemblyReference.cache
