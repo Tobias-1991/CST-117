@@ -1,0 +1,13 @@
+C:\Users\Zach\source\repos\DiceRoller\DiceRoller\obj\Debug\netcoreapp3.1\DiceRoller.csprojAssemblyReference.cache
+C:\Users\Zach\source\repos\DiceRoller\DiceRoller\obj\Debug\netcoreapp3.1\DiceRoller.AssemblyInfoInputs.cache
+C:\Users\Zach\source\repos\DiceRoller\DiceRoller\obj\Debug\netcoreapp3.1\DiceRoller.AssemblyInfo.cs
+C:\Users\Zach\source\repos\DiceRoller\DiceRoller\obj\Debug\netcoreapp3.1\DiceRoller.csproj.CoreCompileInputs.cache
+C:\Users\Zach\source\repos\DiceRoller\DiceRoller\bin\Debug\netcoreapp3.1\DiceRoller.exe
+C:\Users\Zach\source\repos\DiceRoller\DiceRoller\bin\Debug\netcoreapp3.1\DiceRoller.deps.json
+C:\Users\Zach\source\repos\DiceRoller\DiceRoller\bin\Debug\netcoreapp3.1\DiceRoller.runtimeconfig.json
+C:\Users\Zach\source\repos\DiceRoller\DiceRoller\bin\Debug\netcoreapp3.1\DiceRoller.runtimeconfig.dev.json
+C:\Users\Zach\source\repos\DiceRoller\DiceRoller\bin\Debug\netcoreapp3.1\DiceRoller.dll
+C:\Users\Zach\source\repos\DiceRoller\DiceRoller\bin\Debug\netcoreapp3.1\DiceRoller.pdb
+C:\Users\Zach\source\repos\DiceRoller\DiceRoller\obj\Debug\netcoreapp3.1\DiceRoller.dll
+C:\Users\Zach\source\repos\DiceRoller\DiceRoller\obj\Debug\netcoreapp3.1\DiceRoller.pdb
+C:\Users\Zach\source\repos\DiceRoller\DiceRoller\obj\Debug\netcoreapp3.1\DiceRoller.genruntimeconfig.cache
