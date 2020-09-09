@@ -1,72 +1,45 @@
-﻿using System;
-/*
-Zachary Gardner
-CST-117
-September 3, 2020
-Professor Pritchard
+﻿//Zachary Gardner
+//CST-117
+//September 9, 2020
+using System;
+using System.IO;
+using System.Text;
+using System.Text.RegularExpressions;
 
- */
-
-namespace Exercise8
+namespace Exercise10
 {
     class Program
     {
         static void Main(string[] args)
         {
-            //Declaring variables
-            int fatCals;
-            int carbCals;
-            //Welcome message
-            Console.WriteLine("Welcome to the Calorie Calculator");
+            // path variable stores the path of the file
+            string path = @"C:\Users\Zach\source\repos\Exercise10\Exercise10\testFile.txt";
+            // count keeps track of instances of letters to be counted
+            int count = 0;           
 
-            //Console.ReadLine will take user input and save inside variables
-            Console.WriteLine("Please enter your total Carbohydrates for the day in grams");
-            string carbGrams = Console.ReadLine();
+            //readText reads the text from the file.
+            string readText = File.ReadAllText(path);
 
-            //Console.ReadLine will take user input and save inside variables
-            Console.WriteLine("Please enter your total Fats for the day in grams");
-            string fatGrams = Console.ReadLine();
+            //words reads each individual word into a string array
+            string[] words = readText.Split(' ');
 
-            //capturing data from methods
-            fatCals = FatCalories(Int32.Parse(fatGrams));
-            carbCals = CarbCalories(Int32.Parse(carbGrams));
-
-            //displaying the returned values
-            Console.WriteLine("Your total Calories from Carbs for the day are " + carbCals + 
-                "\r\nYour total Calories from Fat for the day are " + fatCals);
-
-
-        }
-        //FatCalories method takes grams of fat as input, then multiplies by 9 to return number of calories from fat.
-        public static int FatCalories(int fatGrams)
-        {
-            int fatCals = 0;
-            fatCals = fatGrams * 9;
-
-            return fatCals;
-        }
-        //CarbCalories method takes grams of Carbs as input, then multiplies by 4 to return number of calories from carbs.
-        public static int CarbCalories(int carbGrams)
-        {
-            int carbCals = 0;
-            carbCals = carbGrams * 4;
-            return carbCals;
+            string noPunctuation; 
+            // for loop checks every word for the target letters
+            for (int word = 0; word < words.Length; word++)
+                {
+                //removes punctuation from the string so the e, and t instances are counted correctly.
+                noPunctuation = Regex.Replace(words[word], "[^A-Za-z0-9 ]", "");
+                //test print shows each word in the console
+                Console.WriteLine(noPunctuation);
+                // If statement increments a counter for each instance of e, E, t, or T
+                if (noPunctuation.EndsWith("e") || noPunctuation.EndsWith("t") || noPunctuation.EndsWith("T") || noPunctuation.EndsWith("E"))
+                {
+                    count++;
+                    
+                }                                      
+            }
+            Console.WriteLine("There are " + count + " words that end in e or t");
+            
         }
     }
 }
-/*
- * A nutritionist who works for a fitness club helps members by evaluating their diets. 
- * As part of her evaluation, she asks members for the number of fat grams and carbohydrate grams that they consume in a day. 
- * Then, she calculates the number of calories that result from the fat using the following formula: 
- * Calories from fat = Fat grams × 9 
- * Next, she calculates the number of calories that result from the carbohydrates using the following formula:
- * Calories from carbs = Carbs grams × 4 
- * Create an application that will make these calculations. 
- * In the application, you should have the following methods:
- * FatCalories–This method should accept a number of fat grams as an argument and return the number of calories from that amount of fat.
- * CarbCalories–This method should accept a number of carbohydrate grams as an argument and return the number of calories from that amount of carbohydrates.
- * 
- * 
- * 
- * 
- */
