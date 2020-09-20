@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1FDA63DC-DF83-4FC6-BC8B-539838B6E6E4}</ProjectGuid>
+    <ProjectGuid>{394E65DB-18A7-4812-BC80-D634BE52A9E0}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>Exercise5</RootNamespace>
     <AssemblyName>Exercise5</AssemblyName>
@@ -46,16 +46,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="FindYourLuckyNumber.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FindYourLuckyNumber.Designer.cs">
+      <DependentUpon>FindYourLuckyNumber.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LuckyNumber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LuckyNumber.Designer.cs">
+      <DependentUpon>LuckyNumber.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="FindYourLuckyNumber.resx">
+      <DependentUpon>FindYourLuckyNumber.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LuckyNumber.resx">
+      <DependentUpon>LuckyNumber.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
