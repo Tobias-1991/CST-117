@@ -23,11 +23,6 @@ namespace Inventory4Week7
         }
         InventoryManager IM = new InventoryManager();
 
-        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-           
-        }
-
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -47,7 +42,15 @@ namespace Inventory4Week7
 
         private void button3_Click(object sender, EventArgs e)
         {
-            IM.DisplayItems();
+            IM.AddNewItem(001, "Yoyo", 10, 10.99);
+            IM.AddNewItem(002, "Kite", 10, 12.99);
+
+            listBox1.MultiColumn = true;
+            listBox1.SelectionMode = SelectionMode.MultiExtended;
+            listBox1.BeginUpdate();
+
+
+            listBox1.DisplayMember = "001 Yoyo 10 10.99";
         }
 
         private void button2_Click(object sender, EventArgs e)

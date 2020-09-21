@@ -34,10 +34,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.label1.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(29, 61);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(347, 39);
+            this.label1.Size = new System.Drawing.Size(367, 39);
             this.label1.TabIndex = 0;
             this.label1.Text = "You removed an item!";
             // 
@@ -45,6 +46,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.ClientSize = new System.Drawing.Size(422, 170);
             this.Controls.Add(this.label1);
             this.Name = "Form5";

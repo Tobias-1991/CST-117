@@ -37,12 +37,12 @@ namespace Inventory4Week7
         {
 
         }
-        public Inventory searchInventory(string SearchParam)
-        {
+       // public Inventory searchInventory(string SearchParam)
+      //  {
 
-            return Inventory;
+         //   return Inventory;
 
-        }
+       // }
 
 
            

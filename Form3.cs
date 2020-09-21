@@ -80,5 +80,10 @@ namespace Inventory4Week7
             Double.Parse(textBox4.Text));
 
         }
+
+        private void Form3_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
