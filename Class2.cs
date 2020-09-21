@@ -1,46 +1,52 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
-namespace Milestone3Week6
+//Zachary Gardner
+//CST-117
+//September 20, 2020
+//Professor Pritchard
+//This is my own work
+namespace Inventory4Week7
 {
     class InventoryManager
     {
-
+        //parameterless constructor for Inventory manager
         public InventoryManager()
-        {
+        { }
 
-        }
-        public Inventory[] CreateItemArray(int size)
-        {
-            Inventory[] Items = new Inventory[size];
-            return Items;             
-        }
-        //add new item
-        public void AddNewItem(string itemName, int numInStock, double itemPrice)
-        {
-            Inventory Item = new Inventory(itemName, numInStock, itemPrice);
+        //created instance of inventory list
+        public List<Inventory> items = new List<Inventory>();
 
-        }
-        //remove existing item
-        public void RemoveItem(string itemName)
+        public void AddNewItem(int itemID, string itemName, int itemCount, double itemPrice)
         {
-
+            items.Add(new Inventory(itemID, itemName, itemCount, itemPrice));
         }
-        //restock item
-        public void RestockItem(int itemsAdded)
+
+        public void RemoveItem(int itemID)
         {
-
+            items.RemoveAt(itemID);  
         }
-        // display inventory items
+        public void RestockItem(int itemID, int numAdded)
+        {
+             
+        }
         public void DisplayItems()
         {
 
         }
-        //search for items by two criteria
-        public void SearchItems(string itemName, double itemCost)
+        public Inventory searchInventory(string SearchParam)
         {
-            
+
+            return Inventory;
+
         }
+
+
+           
+
+
     }
 }

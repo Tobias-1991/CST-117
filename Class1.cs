@@ -1,68 +1,43 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
-namespace Milestone3Week6
+//Zachary Gardner
+//CST-117
+//September 20, 2020
+//Professor Pritchard
+//This is my own work
+
+namespace Inventory4Week7
 {
-    class Inventory
-    {
-        // Properties for Inventory class
-        private string itemName;
-        private int numInStock;
-        private double itemPrice;
-
-
-        //Inventory Constructor
-        public Inventory(string itemName, int numInStock, double itemPrice)
+    using System;
+    using System.Collections.Generic;
+    using System.Text;
+        class Inventory
         {
-            this.itemName = itemName;
-            this.numInStock = numInStock;
-            this.itemPrice = itemPrice;
-        }
-        //Getters and Setters
-        public string ItemName
-        {
-            get { return itemName; }
-            set { itemName = value; }
-        }
-        public int NumInStock
-        {
-            get { return numInStock; }
-            set { numInStock = value; }
-        }
+            //Set all parameters for creating an inventory item
+            public int itemID = 0;
+            public string itemName = "";
+            public int itemCount;
+            public double itemPrice;
 
-        public double ItemPrice
-        {
-            get { return itemPrice; }
-            set { itemPrice = value; }
+            //jConstructor for Inventory item
+            public Inventory(int itemID, string itemName, int itemCount, double itemPrice)
+            {
+                this.itemID = itemID;
+                this.itemName = itemName;
+                this.itemCount = itemCount;
+                this.itemPrice = itemPrice;
+            }
+            Inventory()
+            {
+            }
+            //getters and setters
+            int ItemID { get; set; }
+            string ItemName { get; set; }
+            int ItemCount { get; set; }
+            double ItemPrice { get; set; }
         }
-        public void SetInfo(string itemName, int numInStock, double itemPrice)
-        {
-            this.itemName = itemName;
-            this.numInStock = numInStock;
-            this.itemPrice = itemPrice;
-        }
-
-        // Buy item takes input and adjusts inventory amount after a purchase
-        public void BuyItem(int numberPurchased)
-        {
-            numInStock = numInStock - numberPurchased;
-        }
-
-        // Prints complete inventory item list
-        public void printInfo()
-        {
-            Console.WriteLine("Inventory Item: ");
-            Console.WriteLine("\tName     : " + itemName);
-            Console.WriteLine("\tNumber In Stock   : " + numInStock);
-            Console.WriteLine("\tPrice      : " + itemPrice);
-        }
-
-        //Future methods to establish
-
-        /* public void AddItem(int numInStock, string itemColor, double itemPrice)
-         {
-             Inventory newItemName = new Inventory(numInStock, itemColor, itemPrice);
-         }*/
-    }
 }
